@@ -1,0 +1,279 @@
+html {
+  scrollbar-color: "smooth";
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+  font-weight: lighter;
+}
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color:white;
+}
+h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    color: white;
+    font-weight: lighter;
+}
+a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-decoration: none;
+}
+hr {
+  background-color:yellow;
+  height:1px;
+  border:none;
+}
+button {
+  background-color: rgb(0, 0, 0);
+  width: 200px;
+  height: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: none;
+  color: rgb(255, 255, 255);
+}
+input {
+  background-color: black;
+  border: none;
+  color: yellow;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  width: 200px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  border: none;
+}
+textarea {
+
+    background-color: black;
+    border: none;
+    color: yellow;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    border: none;
+}
+nav {
+  position: relative;
+  background-color: black;
+  width: 100%;
+  height: auto;
+  z-index: 50;
+}
+main {
+  text-align: center;
+  background-color: transparent;
+  background-attachment: fixed;
+  width: 100%;
+  height: 600px;
+}
+footer {
+  float: bottom;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background: black;
+}
+#waw {
+  position: relative;
+  width: auto;
+  height:auto;
+  background-color: black;
+  padding: 0;
+  text-align: center;
+
+
+}
+#waw  p {
+  position: relative;
+  padding: 30px;
+}
+#waw1 {
+  position: relative;
+  right:30px;
+  width: 100%;
+  height:auto;
+  background-color: black;
+  padding: 30px;
+
+
+}
+.alb img {
+  /* display: block; */
+  border-radius:7%;
+  max-width: 500px;
+  height: auto;
+}
+#portfolio img {
+  /* display: block; */
+  border-radius:7%;
+  max-width: 100%;
+  height: auto;
+}
+#portfolio {
+  display: grid;
+  width: 100%;
+  height:auto;
+  grid-gap: 16px;
+  background-color: black;
+}
+#portfolio1 {
+  width: 100%;
+  height:auto;
+  background-color: black;
+  color:yellow;
+}
+#portfolio1 h2,p{
+  color:yellow;
+  padding:20px;
+}
+#contact {
+  width: 100%;
+  height:auto;
+  background-color: black;
+}
+#contact h2 {
+  color:yellow;
+}
+#contact input {
+  color: yellow;
+}
+#contact p {
+  color: yellow;
+}
+#contact a {
+  color: yellow;
+}
+#cont {
+  padding-top:40px;
+  padding-bottom:40px;
+}
+
+@media (min-width: 600px) {
+	#portfolio {
+		grid-template-columns: repeat( 2, 1fr );
+	}
+}
+@media (min-width: 1024px) {
+	#portofolio {
+		grid-template-columns: repeat( 3, 1fr );
+	}
+}
+.dropbtn {
+  border: none;
+  font-size: 20px;
+  background-color: rgb(0, 0, 0);
+  width: 15px;
+  position: relative;
+  right: 50px;
+  top: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.dropdown {
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  display: inline-block;
+  top: 15px;
+}
+
+.dropdown-content {
+  background-color: rgb(0, 0, 0);
+  display: none;
+  position: absolute;
+  min-width: 120px;
+  z-index: 1;
+  padding: 10px;
+  border-radius: 9%;
+}
+
+.dropdown-content a {
+  color: yellow;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: right;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ul {
+  list-style: none;
+  list-style-position: initial;
+  list-style-image: initial;
+  list-style-type: none;
+}
+.sidenav {
+  height: auto;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  padding-bottom: 20px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: yellow;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
